@@ -23,11 +23,11 @@ const Hero = () => {
           Creating web products,
           <br />
           brands,
-          <span className="text-cyan-200">and experience.</span>
+          <span className="text-cyan-300">and experience.</span>
         </h1>
         <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
           Hi, I&apos;m Erick - A Passionate{' '}
-          <span className="text-cyan-200 font-bold">
+          <span className="text-cyan-300 font-bold">
             <Typewriter
               options={{
                 strings: [

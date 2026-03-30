@@ -11,7 +11,7 @@ const Resume = () => {
         {/* WORK PART */}
         <div>
           <h1 className="text-3xl sm:text-4xl font-bold text-white">
-            My Work <span className="text-cyan-200 ">Experience</span>
+            My Work <span className="text-cyan-300 ">Experience</span>
           </h1>
           <div className="mt-10">
             <ResumeCard Icon={FaCodepen} role="Full-Stack Developer" />
@@ -22,7 +22,7 @@ const Resume = () => {
         {/* EDUCATION PART */}
         <div>
           <h1 className="text-3xl sm:text-4xl font-bold text-white">
-            My <span className="text-cyan-200 ">Education</span>
+            My <span className="text-cyan-300 ">Education</span>
           </h1>
           <div className="mt-10">
             <ResumeCard
