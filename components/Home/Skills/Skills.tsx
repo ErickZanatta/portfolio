@@ -3,7 +3,7 @@
 import React from 'react'
 import {
   SiJavascript,
-  SiNextdoor,
+  SiNextdotjs,
   SiNodedotjs,
   SiReact,
   SiTailwindcss,
@@ -25,7 +25,7 @@ const skills = [
   },
   {
     name: 'Next.Js',
-    icon: <SiNextdoor />,
+    icon: <SiNextdotjs />,
     percentage: 90,
   },
   {
@@ -49,7 +49,7 @@ const Skills = () => {
   return (
     <div className="text-white pt-16 pb-16">
       <h1 className="text-center text-2xl font-bold md:text-4xl xl:text-5xl text-white">
-        My <span className="text-cyan-300">Skills</span>
+        Minhas <span className="text-cyan-300">Habilidades</span>
       </h1>
       <div className="flex flex-wrap justify-center gap-6 mt-16">
         {skills.map((skil) => {
